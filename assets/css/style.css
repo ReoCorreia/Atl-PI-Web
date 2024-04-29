@@ -2376,3 +2376,61 @@ section {
 .hero-img {
   text-align: left;
 }
+
+.under-image-text{
+  padding-top: 5%;
+  text-align: left;
+  color: #012970;
+  font-style: italic;
+}
+
+/* the alternates */
+.under-image-text-margin{
+  margin-left: 25%;
+  text-align: left;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.italic-header{
+  padding-top: 5%;
+  text-align: left;
+  font-weight: bold;
+  color: #012970;
+  font-style: italic;
+}
+
+.italic-text{
+  text-align: left;
+  font-weight: bold;
+  color: #012970;
+  font-style: italic;
+}
+
+.card-1{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: #012970;
+  color: #eee;
+}
+
+.card-oval{
+  border-radius: 8px;
+  border-color: #012970;
+  color: #eee;
+}
+
+.white-text{
+  color: white;
+}
+
+.img {
+  width: 20%;
+  height: 100%;
+}
+
+@media screen and (max-width: 660px) {
+  .img {
+    width: 80%;
+  }
+}
